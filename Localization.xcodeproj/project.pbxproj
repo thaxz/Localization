@@ -11,6 +11,8 @@
 		E92FE0502DF87423002B3B09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92FE04F2DF87423002B3B09 /* ContentView.swift */; };
 		E92FE0522DF87424002B3B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92FE0512DF87424002B3B09 /* Assets.xcassets */; };
 		E92FE0552DF87424002B3B09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92FE0542DF87424002B3B09 /* Preview Assets.xcassets */; };
+		E92FE05C2DF875BC002B3B09 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E92FE05B2DF875BC002B3B09 /* Localizable.xcstrings */; };
+		E9E341732DF90D8E00E56074 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E341722DF90D8E00E56074 /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E92FE04F2DF87423002B3B09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E92FE0512DF87424002B3B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92FE0542DF87424002B3B09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E92FE05B2DF875BC002B3B09 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E9E341722DF90D8E00E56074 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				E92FE04D2DF87423002B3B09 /* LocalizationApp.swift */,
 				E92FE04F2DF87423002B3B09 /* ContentView.swift */,
+				E9E341722DF90D8E00E56074 /* Enums.swift */,
+				E92FE05B2DF875BC002B3B09 /* Localizable.xcstrings */,
 				E92FE0512DF87424002B3B09 /* Assets.xcassets */,
 				E92FE0532DF87424002B3B09 /* Preview Content */,
 			);
@@ -109,6 +115,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = E92FE0412DF87422002B3B09;
 			productRefGroup = E92FE04B2DF87423002B3B09 /* Products */;
@@ -127,6 +134,7 @@
 			files = (
 				E92FE0552DF87424002B3B09 /* Preview Assets.xcassets in Resources */,
 				E92FE0522DF87424002B3B09 /* Assets.xcassets in Resources */,
+				E92FE05C2DF875BC002B3B09 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E92FE0502DF87423002B3B09 /* ContentView.swift in Sources */,
+				E9E341732DF90D8E00E56074 /* Enums.swift in Sources */,
 				E92FE04E2DF87423002B3B09 /* LocalizationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

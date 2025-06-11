@@ -8,17 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var customText = "Nem isso"
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 20){
+            Text("Isso vai ser localizado")
+            Text(String("Isso não vai ser localizado"))
+            Text(customText)
         }
-        .padding()
+        .bold()
+        .font(.title2)
     }
 }
 
-#Preview {
+#Preview("Português"){
     ContentView()
+}
+
+#Preview("Inglês"){
+    ContentView()
+        .environment(\.locale, Locale(identifier: "EN"))
 }
